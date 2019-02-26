@@ -9,8 +9,6 @@ The App is built with gradle and can run on any Android SDK
 Download Android Studio to get started with the App
 Alternatively you can run the Application from your Android device
 ```
-## Deployment
-The Application was deployed to Appetize.io and the Link is provided above
 
 ## Built With
 
