@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ke.siundu254.betshwari.ui.VIPAccountLoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/enter_your_vip_account_phone_number"
+        android:id="@+id/textVIPNumber"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textVIPNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:id="@+id/editTextVIPNumber"
+        android:paddingLeft="10dp"
+        android:background="@drawable/round_background"
+        android:hint="@string/vip_account_phone_number"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextVIPNumber"
+        android:layout_marginTop="7.5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="@string/view_vip_tips"
+        android:padding="7.5dp"
+        android:id="@+id/buttonViewTips"
+        android:layout_alignEnd="@+id/editTextVIPNumber"
+        android:layout_alignRight="@+id/editTextVIPNumber" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "223661464312",
+    "firebase_url": "https://betshwari-cd00d.firebaseio.com",
+    "project_id": "betshwari-cd00d",
+    "storage_bucket": "betshwari-cd00d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223661464312:android:2a54bafd37c84769",
+        "android_client_info": {
+          "package_name": "co.ke.siundu254.betshwari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223661464312-6qkfhfhvvsuu7jcduhfv9s4p619v5i78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.ke.siundu254.betshwari",
+            "certificate_hash": "cb7365a17847e22c03b0979e1e51cf7dc7ddee22"
+          }
+        },
+        {
+          "client_id": "223661464312-7mpkcto1omp9mmg13b4g3qv0fivomlkd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzB2nOEgOakdP2UMom5Rz7q7MRna3Lca4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223661464312-7mpkcto1omp9mmg13b4g3qv0fivomlkd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ke.siundu254.betshwari.ui.VIPActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:layout_centerHorizontal="true"
+            android:textSize="21sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textInstruct"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textInstruct"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textStepOne"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/step_one_pay_for_your_loan_subscription"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayoutVip"
+            android:layout_below="@+id/textStepOne"
+            android:layout_alignStart="@+id/textStepOne"
+            android:layout_alignLeft="@+id/textStepOne"
+            android:layout_alignEnd="@+id/textStepOne"
+            android:layout_alignRight="@+id/textStepOne"
+            android:layout_marginTop="7.5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/we_offer_a_monthly_subscription_of_kes_250_this_package_one_enjoys_four_vip_tips_from_the_best_bookmakers"
+                android:id="@+id/textInstructionOne" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_money"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_money"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayoutVip"
+            android:layout_alignStart="@+id/textStepOne"
+            android:layout_alignLeft="@+id/textStepOne"
+            android:id="@+id/textStepTwo"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:text="@string/step_two_wait_for_between_15_30_minutes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textStepTwo"
+            android:layout_alignStart="@+id/textStepOne"
+            android:layout_alignEnd="@+id/textStepOne"
+            android:layout_alignLeft="@+id/textStepOne"
+            android:layout_alignRight="@+id/textStepOne"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textInstructionTwo"
+            android:text="@string/dear_customer_a_confirmation_message_will_be_sent_to_tell_you_that_your_vip_account_has_been_activated_if_a_message_is_not_sent_just_try_viewing_by_clicking_on_the_vip_tips_from_the_menu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:layout_below="@+id/textInstructionTwo"
+            android:layout_alignStart="@+id/textStepOne"
+            android:layout_alignLeft="@+id/textStepOne"
+            android:text="@string/step_three_you_can_automatically_view_vip_tips"
+            android:id="@+id/textStepThree" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textStepThree"
+            android:layout_alignStart="@+id/textStepOne"
+            android:layout_alignLeft="@+id/textStepOne"
+            android:layout_alignRight="@+id/textStepOne"
+            android:layout_alignEnd="@+id/textStepOne"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textInstructionThree"
+            android:text="@string/dear_customer_if_you_have_paid_your_payment_will_be_verified_thus_every_time_you_visit_this_page_you_will_be_automatically_redirected_to_view_vip_tips"/>
+
+    </RelativeLayout>
+
+</ScrollView>

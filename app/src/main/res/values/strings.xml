@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bet Shwari</string>
+    <string name="hi_there_i_m_using_bet_shwari">Hi there, I\'m using Bet Shwari</string>
+    <string name="_01_jan_2017_05_15">01 JAN 2017</string>
+    <string name="daily_bonus_tips">Daily Double Bonus</string>
+    <string name="ad_unit_id">ca-app-pub-4452099359708051~5600857492</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4452099359708051/1764063570</string>
+    <string name="vip_tips">VIP Tips</string>
+    <string name="instructions"><u>Instructions</u></string>
+    <string name="step_one_pay_for_your_loan_subscription">1: <u>Step One Pay for your VIP Subscription</u></string>
+    <string name="we_offer_a_monthly_subscription_of_kes_250_this_package_one_enjoys_four_vip_tips_from_the_best_bookmakers">We offer a monthly subscription of KES 250. This package is exclusive VIP Tips for 31 days in a Month.</string>
+    <string name="send_money">Send to Number : 0713528540</string>
+    <string name="confirm_money">Confirm Payment : Send your Phone Number to 0713528540</string>
+    <string name="step_two_wait_for_between_15_30_minutes">2: <u>Wait for between 15 - 30 minutes</u></string>
+    <string name="dear_customer_a_confirmation_message_will_be_sent_to_tell_you_that_your_vip_account_has_been_activated_if_a_message_is_not_sent_just_try_viewing_by_clicking_on_the_vip_tips_from_the_menu">Dear Customer, a confirmation message will be sent to tell you that your VIP account has been activated. If a message is not sent just try viewing by clicking on the VIP Tips from the menu.</string>
+    <string name="step_three_you_can_automatically_view_vip_tips">3: <u>You can automatically view VIP Tips</u></string>
+    <string name="dear_customer_if_you_have_paid_your_payment_will_be_verified_thus_every_time_you_visit_this_page_you_will_be_automatically_redirected_to_view_vip_tips">Dear Customer, If you have paid, your payment will be verified thus every time you visit this page you will be automatically redirected to view VIP Tips.</string>
+    <string name="enter_your_vip_account_phone_number">Enter your VIP Account Phone Number :</string>
+    <string name="vip_account_phone_number">VIP Account Phone Number</string>
+    <string name="view_vip_tips">View VIP TIPS</string>
+</resources>
